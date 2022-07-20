@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custombtn{
+    @apply bg-purple-800;
+}
+
+.custombtn:hover{
+    @apply bg-pink-400;
+}
